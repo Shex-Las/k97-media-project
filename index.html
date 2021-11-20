@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <title>sign up form</title>
+</head>
+
+<body>
+    <form action="#">
+        <div>
+            <label for="f-name">nawi yakam : </label>
+            <input type=" text " name="f-name " id="f-name ">
+        </div>
+        <div>
+            <label for="s-name ">nawi yakam :</label>
+            <input type="text " name="s-name " id="s-name ">
+        </div>
+        <div>
+            <label for="age ">taman :</label>
+            <input type="number " name="age " id="age ">
+        </div>
+        <div>
+            <p>ragaz</p>
+            <label for="male">NER</label>
+            <input type="radio" class="gender" name="gender" value="ner">
+            <hr>
+            <label for="female">ME</label>
+            <input type="radio" class="gender" name="gender" value="me">
+        </div>
+        <div>
+            <label for="student ">xwendkar :</label>
+            <input type="checkbox" name="xwendkar " id="student ">
+        </div>
+        <div>
+            <label for="city">shar:</label>
+            <select name="city" id="city">
+                <option value="...">sharek halbzhera</option>
+                <option value="slemani">slemani</option>
+                <option value="hawler">hawler</option>
+                <option value="dhok">dhok</option>
+            </select>
+        </div>
+        <button id="button">tomarkrdn</button>
+    </form>
+    <div id="infos">
+        <div>
+            <p>naw:</p>
+            <p id="student-name"></p>
+        </div>
+        <div>
+            <p>taman:</p>
+            <p id="student-age"></p>
+        </div>
+        <div>
+            <p>ragaz:</p>
+            <p id="student-gender"></p>
+        </div>
+        <div>
+            <p>esta xwendkara?</p>
+            <p id="is-student"></p>
+        </div>
+        <div>
+            <p>shar:</p>
+            <p id="student-city"></p>
+        </div>
+    </div>
+    <script src="./main.js" type="text/javascript"></script>
+</body>
+
+</html>
